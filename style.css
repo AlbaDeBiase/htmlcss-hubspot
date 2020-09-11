@@ -9,7 +9,7 @@
   width: 1200px;
   height: 100%;
   margin: auto;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 .container::after {
@@ -22,6 +22,7 @@
 header{
   background-color: grey;
   height: 200px;
+
 }
 
 .headertop{
@@ -29,9 +30,13 @@ header{
   height: 100px;
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
+  border-top: 1px solid #cbd6e2;
+
+
 }
 .headertopleft {
   background-color: #f5f8fa;
+  color: #33475b;
   height: 100px;
   float: left;
   width: 50%;
@@ -40,8 +45,15 @@ header{
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
+
+.world{
+  padding-right: 5px;
+}
 
 .English {
   /* padding-right: 20px;
@@ -50,7 +62,8 @@ header{
   float: left;
   /* line-height: 6; */
   display: inline-block;
-  color: blue;
+
+
 }
 
 
@@ -59,7 +72,7 @@ header{
   padding-left: 20px;
   /* line-height: 6; */
   display: inline-block;
-  color: blue;
+
 }
 
 .headertopright {
@@ -68,42 +81,105 @@ header{
   float: left;
   width: 50%;
   padding-left: 50px;
-  padding-right: 0px;
+  padding-right: 2px;
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 60px;
+  text-align: right;
+}
+
+.tool{
+  color: blue;
+  padding-right: 20px;
+
+}
+
+.arrow{
+  padding-right: 30px;
+  padding-left: 1px;
 
 }
 
 .login{
-  border: 2px solid orange;
+  border: 2px solid #ff7a59;
   padding-top: 10px;
   padding-left: 30px;
   padding-bottom: 10px;
   padding-right: 30px;
-  color:orange;
+  color:#ff7a59;
   border-radius: 3px;
   /* line-height: 66px; */
 }
 
 .Get{
-  border: 2px solid orange;
+  border: 2px solid #ff7a59;;
   padding-top: 10px;
   padding-left: 30px;
   padding-bottom: 10px;
   padding-right: 30px;
   color:white;
-  background-color: orange;
+  background-color: #ff7a59;;
   border-radius: 3px;
 }
 
 
 .headerbottom{
-
   height: 100px;
-  background-color: red;
+  color: #425b76;
+  /* background-color: white; */
+  /* font-size: 100%; */
+  width: 100%;
+  display: inline-block;
 
 }
+
+.logoright{
+height: 100px;
+background-color: white;
+/* display: inline-block; */
+width: 50%;
+float: left;
+padding-left: 5px;
+
+}
+
+img{
+  width:150px;
+  height:100px;
+  display: inline;
+}
+
+}
+.menu {
+  height:100px;
+  display: inline;
+  width: 50%;
+  float: left;
+  padding-left: 5px;
+
+}
+
+div li{
+  display: inline-block;
+  font-family: sans-serif;
+  color: #33475b;
+
+
+
+
+}
+
+.banner{
+  color:white;
+  background-color: #425b76;
+  line-height: 1.6;
+}
+
+
+
+
+
+
 
 #jumbo {
   background-color: green;
