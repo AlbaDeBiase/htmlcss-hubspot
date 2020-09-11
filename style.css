@@ -27,10 +27,11 @@ header{
 .headertop{
 
   height: 100px;
-  background-color: blue;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
 }
 .headertopleft {
-  background-color: orange;
+  background-color: #f5f8fa;
   height: 100px;
   float: left;
   width: 50%;
@@ -41,21 +42,15 @@ header{
   line-height: 60px;
 }
 
-.headertopright {
-  background-color: pink;
-  height: 100px;
-  float: left;
-  width:
-  50%;
-}
 
 .English {
   /* padding-right: 20px;
   /* padding left: 40px;
-  /* padding top: 20px; */ 
+  /* padding top: 20px; */
   float: left;
   /* line-height: 6; */
   display: inline-block;
+  color: blue;
 }
 
 
@@ -64,7 +59,44 @@ header{
   padding-left: 20px;
   /* line-height: 6; */
   display: inline-block;
+  color: blue;
 }
+
+.headertopright {
+  background-color: #f5f8fa;
+  height: 100px;
+  float: left;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 60px;
+
+}
+
+.login{
+  border: 2px solid orange;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  color:orange;
+  border-radius: 3px;
+  /* line-height: 66px; */
+}
+
+.Get{
+  border: 2px solid orange;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  color:white;
+  background-color: orange;
+  border-radius: 3px;
+}
+
 
 .headerbottom{
 
