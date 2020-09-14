@@ -263,7 +263,7 @@ div li{
 }
 
 
-.widjet {
+.widget {
   height: 300px;
 
 }
@@ -278,7 +278,7 @@ h2 {
 
 }
 
-.textwidjet {
+.textwidget {
   font-size: 15px;
   /* width: 30%; */
   padding-top: 20px;
@@ -296,6 +296,9 @@ h2 {
 
 }
 
+
+
+}
 
 h3{
 
@@ -345,4 +348,10 @@ h3{
   padding-top: 60px;
   color: #33475b;
   font-weight: bold;
+}
+
+.linkbox {
+   list-style: none;
+
+
 }
