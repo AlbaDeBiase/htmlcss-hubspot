@@ -9,7 +9,7 @@
   width: 1200px;
   height: 100%;
   margin: auto;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .container::after {
@@ -29,11 +29,16 @@ header{
 
   height: 100px;
   background-color: #f5f8fa;
-  border-bottom: 1px solid #cbd6e2;
-  border-top: 1px solid #cbd6e2;
+  /* border-bottom: 1px solid #cbd6e2;
+  border-top: 1px solid #cbd6e2; */
+  /* width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px; */
 
 
 }
+
 .headertopleft {
   background-color: #f5f8fa;
   color: #33475b;
@@ -64,6 +69,7 @@ header{
   display: inline-block;
 
 
+
 }
 
 
@@ -72,8 +78,10 @@ header{
   padding-left: 20px;
   /* line-height: 6; */
   display: inline-block;
+  /* border-left: 1px solid black; */
 
 }
+
 
 .headertopright {
   background-color: #f5f8fa;
@@ -133,6 +141,7 @@ header{
   background-color: white;
 
 
+
 }
 
 .logoright{
@@ -154,7 +163,7 @@ img{
 }
 .menu {
   height:100px;
-  display: inline;
+  display: inline block;
   width: 50%;
   float: right;
 
@@ -199,11 +208,45 @@ div li{
 }
 
 
-
-
-
-
 #jumbo {
-  background-color: green;
+  background-color: lightyellow;
   height: 500px;
+
 }
+
+.main{
+  height: calc(400 - 60px);
+  width: 30%;
+  background-color: lightpink;
+  float: left;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+
+
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+
+.paragraph{
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paragraphbottom{
+  font-size: 15px;
+  padding-top: 20px;
+
+}
+
+.mainright{
+    height: 400px;
+    width: 70%;
+    background-color: lightpink;
+    float: left;
+  }
