@@ -9,7 +9,7 @@
   width: 1200px;
   height: 100%;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .container::after {
@@ -35,6 +35,7 @@ header{
   position: fixed;
   top: 0px;
   left: 0px; */
+  /* position: fixed; */
 
 
 }
@@ -139,6 +140,8 @@ header{
   width: 100%;
   display: inline-block;
   background-color: white;
+  /* padding-top: 100px;
+  padding left:  */
 
 
 
@@ -158,7 +161,7 @@ img{
   width:150px;
   height:100px;
   display: inline;
-}
+
 
 }
 .menu {
@@ -209,44 +212,102 @@ div li{
 
 
 #jumbo {
-  background-color: lightyellow;
   height: 500px;
 
 }
 
 .main{
-  height: calc(400 - 60px);
-  width: 30%;
-  background-color: lightpink;
+  height: calc(400 - 90px);
+  width: 35%;
   float: left;
   padding-left: 20px;
   padding-top: 70px;
 }
 
 
+
   h1{
     font-size: 50px;
     font-weight: bold;
     text-align: left;
+    color: #33475b;
   }
 
 
 .paragraph{
   font-size: 20px;
   font-weight: normal;
-  padding-top: 20px;
+  padding-top: 18px;
   padding-bottom: 20px;
+  color: #33475b;
+  line-height: 1.6;
 }
 
 .paragraphbottom{
-  font-size: 15px;
+  font-size: 16px;
   padding-top: 20px;
+  color: #33475b;
+  padding-bottom: 50px;
+}
+
+
+.Get2 {
+    border: 2px solid #ff7a59;;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    color:white;
+    background-color: #ff7a59;;
+    border-radius: 3px;
+}
+
+
+.widjet {
+  height: 300px;
 
 }
 
-.mainright{
-    height: 400px;
-    width: 70%;
-    background-color: lightpink;
-    float: left;
-  }
+
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  /* width: 30%; */
+  color: #33475b;
+
+}
+
+.textwidjet {
+  font-size: 20px;
+  /* width: 30%; */
+  padding-top: 20px;
+  color: #33475b;
+  line-height: 1.6;
+
+
+}
+
+.box1, .box2, .box3{
+  float: left;
+}
+
+
+.h3{
+   text-align: center;
+ }
+
+ .box1 {
+   width:30%;
+   text-align: left;
+ }
+
+.box2{
+  width: 35%;
+  padding-left: 70px;
+
+}
+ .box3{
+ width: 35%;
+
+ }
