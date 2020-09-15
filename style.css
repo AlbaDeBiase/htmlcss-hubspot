@@ -406,6 +406,7 @@ line-height: 23px;
 
 .celle {
   height: 600px;
+  width: 1200px;
   background-color:#00a4bd;
   float: left;
   text-align: center;
@@ -454,21 +455,39 @@ img{
 
 .homecustomers{
   height: 300px;
+  width: 1200px;
   background-color: blue;
+
 
 }
 
 .customersleft {
 
   height: 300px;
+  width: 50%;
   background-color: yellow;
   float: left;
+  text-align: left;
 
 }
 
+
+
 .customersright{
   height: 300px;
+  width: 50%;
   background-color: red;
   float: left;
+  line-height: 300px;
 
+}
+
+.customerslogos1 {
+  height: 300px;
+  weight:50%;
+}
+
+.customersilogos2 {
+  height: 300px;
+  weight: 50%;
 }
