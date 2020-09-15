@@ -9,7 +9,7 @@
   width: 1200px;
   height: 100%;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .container::after {
@@ -293,6 +293,7 @@ h2 {
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
   float: left;
+  padding: 20px;
 
 
 }
@@ -309,17 +310,17 @@ h3{
 
 
  .box1 {
-   width:30%;
+   width:33%;
 ;
  }
 
 .box2{
-  width: 35%;
+  width: 33%;
   padding-left: 60px;
 
 }
  .box3{
- width: 35%;
+ width: 34%;
  padding-left: 60px;
 
  }
@@ -336,7 +337,7 @@ h3{
 }
 
 .box6{
-  width: 33%;
+  width: 34%;
   padding-left: 60px;
 }
 
@@ -352,20 +353,21 @@ h3{
 
 .listwidget {
 padding-bottom: 15px;
-
+color: #33475b;
 }
 
 
 .Getfree {
     border: 2px solid #ff7a59;;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    padding-right: 70px;
     color:white;
     background-color: #ff7a59;;
     border-radius: 3px;
-    width: 80px;
+    /* width: 40px; */
+    /* height: 20px; */
     font-size: 20PX;
     text-align: center;
 
