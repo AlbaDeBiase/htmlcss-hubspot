@@ -9,7 +9,7 @@
   width: 1200px;
   height: 100%;
   margin: auto;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .container::after {
@@ -372,5 +372,25 @@ color: #33475b;
     text-align: center;
 
   }
-/*
-RISOLVERE PROBLEMA BUTTON GET FREE CHE NON SI INGRANDISCE  */
+
+
+.griglia{
+  color:white;
+  background-color: #00a4bd;
+  height: 600px;
+  text-align: center;
+  float: left;
+
+}
+
+#titologriglia {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 70px;
+
+}
+
+#sottotitologriglia {
+  font-size: 20px;
+}
